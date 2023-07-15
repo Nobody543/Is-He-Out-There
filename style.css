@@ -29,10 +29,28 @@ nav ul li a {
   display: block;
   padding: 24px 14px;
   text-decoration: none;
+  padding: 10px
 }
 
 nav ul li ul {
-  display: block;
+  display: none;
   position: absolute;
   background-colour: blue;
+  padding: 10px;
+}
+
+nav ul li: hover ul {
+  display: block;
+}
+
+nav ul li ul li a {
+  width: 180px;
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+  backgroundcolour: lightgrey;
 }
