@@ -1,0 +1,11 @@
+p {
+  colour: white;
+  margin: 0 0 0 30px;
+  font-size: 23px;
+  text-align: justify;
+}
+
+* {
+  font-family: arial;
+  background: darkgreen
+}
