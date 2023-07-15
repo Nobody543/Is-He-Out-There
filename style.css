@@ -1,11 +1,11 @@
 p {
-  colour: white;
   margin: 0 0 0 30px;
-  font-size: 23px;
   text-align: justify;
 }
 
 * {
+  colour: white;
   font-family: arial;
-  background: darkgreen
+  background: darkgreen;
+  font-size: 23px;
 }
