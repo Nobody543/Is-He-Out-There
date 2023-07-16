@@ -25,18 +25,18 @@ nav ul li {
   list-style: none;
   position: relative;
   width: 33%;
-  text-align: centre;
+  text-align: center;
 }
 
 nav ul li a {
   display: block;
   padding: 24px 14px;
   text-decoration: none;
-  padding: 10px
+  padding: 10px;
 }
 
 nav ul li ul {
-  display: none;
+  display: block;
   position: absolute;
   background-colour: blue;
   padding: 10px;
@@ -48,10 +48,6 @@ nav ul li:hover ul {
 
 nav ul li ul li {
   width: 100%;
-}
-
-nav ul li ul li a {
-  width: 180px;
 }
 
 nav ul li ul li a {
