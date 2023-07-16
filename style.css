@@ -17,12 +17,15 @@ nav {
 
 nav ul {
   float: left;
+  width: 100%;
 }
 
 nav ul li {
   float: left;
   list-style: none;
   position: relative;
+  width: 33%;
+  text-align: centre;
 }
 
 nav ul li a {
