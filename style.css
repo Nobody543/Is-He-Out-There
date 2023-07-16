@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li ul {
-  display: block;
+  display: none;
   position: absolute;
   background-colour: blue;
   padding: 10px;
