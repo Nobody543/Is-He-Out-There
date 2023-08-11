@@ -63,3 +63,14 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
   backgroundcolour: lightgrey;
 }
+
+.reveal {
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
