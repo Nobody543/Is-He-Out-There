@@ -7,21 +7,22 @@ p {
 }
 
 * {
-  color: white;
+  color: #464646;
   font-family: arial;
-  background: darkgreen;
+  background: white;
   font-size: 23px;
 }
 
 nav {
   width: 100%;
   height: 60px;
-  background: lightblue;
+  background: navy;
 }
 
 nav ul {
   float: left;
   width: 100%;
+  background: navy;
 }
 
 nav ul li {
@@ -30,6 +31,7 @@ nav ul li {
   position: relative;
   width: 33%;
   text-align: center;
+  background: navy;
 }
 
 nav ul li a {
@@ -38,12 +40,14 @@ nav ul li a {
   text-decoration: none;
   padding: 10px;
   font-size: 35px;
+  background: navy;
+  color: lightblue;
 }
 
 nav ul li ul {
   display: none;
   position: absolute;
-  background-colour: blue;
+  background-colour: navy;
   padding: 10px;
 }
 
