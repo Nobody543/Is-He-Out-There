@@ -109,6 +109,7 @@ nav ul li ul li a:hover {
 }
 
 .footer {
+  color: lightblue;
   margin: 0 0 0 0;
   background-image: url("dBlue.png");
   text-align: center;
