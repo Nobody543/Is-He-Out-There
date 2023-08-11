@@ -36,9 +36,8 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  padding: 24px 14px;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
   font-size: 35px;
   background: navy;
   color: lightblue;
