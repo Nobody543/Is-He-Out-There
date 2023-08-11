@@ -17,6 +17,13 @@ nav {
   width: 100%;
   height: 60px;
   background: navy;
+  position: fixed;
+  border-bottom: 1px clear;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  margin-left: -8px;
 }
 
 nav ul {
