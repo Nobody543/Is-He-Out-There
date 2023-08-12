@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <link href="style.css" rel="stylesheet">
+  <title>Is He Out There?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href='#'>HOME</a></li>
+      <li>
+        <a href='#'>FOR</a>
+        <ul>
+          <li><a href='/design.html'>F1</a></li>
+          <li><a href='#'>F2</a></li>
+          <li><a href='#'>F3</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href='#'>AGAINST</a>
+        <ul>
+          <li><a href='#'>A1</a></li>
+          <li><a href='#'>A2</a></li>
+          <li><a href='#'>A3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div>
+      <img src="Michaelangelo's Creation of Adam.png" class="frontImg" alt="The Creation of Adam, Michaelangelo">
+  </div>
+  
+  <div class='text'>
+
+    <h1>The Design Argument</h1>
+
+    <div class='reveal'>
+      <p>Probably one of the best known and most convincing argumetns for the existence of God is the Design Argument. It has been used for more than hundreds of years, and is still used to convince people today. Here it is:</p>
+    </div>
+    
+    <div class='reveal'>
+      <p>Most living things in our universe appear to be designed: humans, lions, dogs, cats, frogs, eagles, fish and many more all have bodies that contain organs that all work perfectly together to allow the organism to survive. The nervous system is such that the brain can cause the lungs to breathe in a split second. The lungs expand, the diaphragm flattens, the volume of the chest increases, the pressure inside the chest decreases and air is sucked in. This is then transported via the blood to the muscles so that respiration can occur, releasing energy so that the specialised muscle tissue can contract in such a way and you are able to pick something up. All of this appears to be designed perfectly so that living things can function in the way that they do. When you take an unnatural object like a watch, which appears to be designed perfectly so that it’s arm moves once every second exactly. The other moves every minute and the other every hour so that you can tell the time exactly. Nobody would suggest that something this perfectly designed for function would exist randomly. If you found a watch on the street nobody would suggest that the pieces were picked up by a tornado and then thrown out perfectly assembled into a watch; this would be ludicrous. Humans appear designed to an incredibly greater extent than a watch does. Indeed, even a single human organ does. Why then should we assume that humans were not designed also? We shouldn’t. All living things appear to be designed because they were. Who is the grand designer? An omniscient (since they would have to know how to design things to this level of detail which is extraordinarily complect) and omnipotent (to be able to enact this design) being. Who is omniscient and omnipotent? God. God then is the only possible Grand Designer, and since this Grand Designer must exist, so must God.</p>
+    </div>
+      
+    <br>
+    <br>
+    <br>
+
+  </div>
+    
+  <div class="footer">
+    <ul>
+      <li><a href="disclaimer.html" class="footer">Disclaimer</a></li>
+      <li><a href="sources.html" class="footer">Sources</a></li>
+    </ul>
+  </div>
+
+  <script>
+    window.addEventListener('scroll', reveal);
+    
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal')
+      
+      for(var i=0; i < reveals.length; i++){
+        
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+        
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+  </script>
+  
+</body>
+
+</html>
