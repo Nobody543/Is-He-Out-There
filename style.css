@@ -127,3 +127,15 @@ nav ul li ul li a:hover {
   font-size: 23px;
   list-style-type: none;
 }
+
+.footerC {
+  color: lightblue;
+  margin: 0 0 0 0;
+  background-image: url("dBlue.png");
+  text-align: center;
+  bottom: 0;
+  background-width: 100%;
+  font-size: 23px;
+  list-style-type: none;
+  padding: 15px;
+}
