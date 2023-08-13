@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <link href="style.css" rel="stylesheet">
+  <title>Is He Out There?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="Favicon.png">
+  
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href='index.html'>HOME</a></li>
+      <li>
+        <a href='#'>FOR</a>
+        <ul>
+          <li><a href='design.html'>Design Argument</a></li>
+          <li><a href='fineTuning.html'>Fine Tuning Argument</a></li>
+          <li><a href='firstCause'>First Cause Argument</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href='#'>AGAINST</a>
+        <ul>
+          <li><a href='#'>A1</a></li>
+          <li><a href='#'>A2</a></li>
+          <li><a href='#'>A3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div>
+      <img src="watch.jpg" class="frontImg" alt="The Creation of Adam, Michaelangelo">
+  </div>
+  
+  <div class='text'>
+
+    <h1>The First Cause Argument</h1>
+
+    <div class='reveal'>
+      <p>Probably one of the oldest and well-known arguments for the existence of God. It was most famously proposed in multiple forms by St. Thomas Aquinas in the 13th Century, though it had been used previously by scholars for over 1.5 millenia under different guises, remaining as effective today as it was thousands of years ago. Here it is:</p>
+    </div>
+    
+    <div class='reveal'>
+      <p>Every effect has a cause. Everything that exists comes from something. For example, a roast chicken comes from a chicken. That chicken comes from an egg, as well as food that helped it grow. That food comes from plants. Those plants come from seeds as well as sunlight helping them grow. That sunlight comes from the sun. The sun was created from gas billions of years ago. That gas comes from the explosion of matter at the Big Bang. What caused the Big Bang? Even if the Big Bang was caused by something, what caused that? This regresses infinitely, until eventually we see that there must have been something that was the First Cause. The answer must be something spaceless (since this came from the Big Bang) and powerful. If this is going to be the First Cause, it must also be outside of time: eternal, since if it were not, there would be a time when it did not exist, so something would need to have caused it, and it would not be the First Cause, it would be the Second or Third etc. What is timeless, spaceless and very, very powerful? We call this God.</p>
+    </div>
+      
+    <br>
+    <br>
+    <br>
+
+  </div>
+    
+  <div class="footer">
+    <ul>
+      <li><a href="disclaimer.html" class="footer">Disclaimer</a></li>
+      <li><a href="sources.html" class="footer">Sources</a></li>
+    </ul>
+  </div>
+
+  <script>
+    window.addEventListener('scroll', reveal);
+    
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal')
+      
+      for(var i=0; i < reveals.length; i++){
+        
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+        
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+  </script>
+  
+</body>
+
+</html>
